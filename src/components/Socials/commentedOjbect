@@ -1,0 +1,27 @@
+// const Socials = [
+//   {
+//     component: <Youtube />,
+//     colors: { color1: "#D3205A", color2: "#FF5A5A" },
+//     id: 1,
+//   },
+//   {
+//     component: <Facebook />,
+//     colors: { color1: "#63AFDB", color2: "#6028F1" },
+//     id: 2,
+//   },
+//   {
+//     component: <Pinterset />,
+//     colors: { color1: "#F6C683", color2: "#DE3838" },
+//     id: 3,
+//   },
+//   {
+//     component: <Instagram />,
+//     colors: { color1: "#FFC593", color2: "#BC7198", color3: "#5A77FF" },
+//     id: 4,
+//   },
+//   {
+//     component: <Twitter />,
+//     colors: { color1: "#65FFEB", color2: "#27718A" },
+//     id: 5,
+//   },
+// ];

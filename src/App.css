@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+}
+.gradient {
+  background-image: linear-gradient(to top right, #ffc593, #bc7198, #5a77ff);
+}
+.btn-sec:hover p {
+  text-decoration: underline;
+}
+.home-stories-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.home-stories-grid-reverse {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 767px) {
+  .home-stories-grid {
+    grid-template-columns: 1.81fr 1fr;
+  }
+  .home-stories-grid-reverse {
+    grid-template-columns: 1fr 1.81fr;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .home-stories-grid {
+    grid-template-columns: 0.73fr 1fr;
+  }
+  .home-stories-grid-reverse {
+    grid-template-columns: 1fr 0.73fr;
+  }
+}
