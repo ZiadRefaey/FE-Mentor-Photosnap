@@ -1,5 +1,11 @@
-export default function Features() {
+import FeaturesHero from "../components/FeaturesHero";
+import FeaturesPageList from "../components/FeaturesPageList";
+
+export default function Features({ screenWidth }) {
   return (
-    <div>Features</div>
-  )
+    <div>
+      <FeaturesHero screenWidth={screenWidth} />
+      <FeaturesPageList />
+    </div>
+  );
 }

@@ -32,7 +32,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage screenWidth={screenWidth} />} />
           <Route path="/stories" element={<Stories />} />
-          <Route path="/features" element={<Features />} />
+          <Route
+            path="/features"
+            element={<Features screenWidth={screenWidth} />}
+          />
           <Route path="/pricing" element={<Pricing />} />
         </Routes>
         <Footer />

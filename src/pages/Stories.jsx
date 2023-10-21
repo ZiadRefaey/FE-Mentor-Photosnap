@@ -1,5 +1,8 @@
+import StoriesHero from "../components/StoriesHero";
 export default function Stories() {
   return (
-    <div>Stories</div>
-  )
+    <div>
+      <StoriesHero />
+    </div>
+  );
 }

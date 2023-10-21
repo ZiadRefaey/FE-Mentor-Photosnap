@@ -3,6 +3,7 @@ import ColoredBar from "./ColoredBar";
 
 export default function HomeStory({
   hidden,
+  buttonHidden,
   img,
   backgroundColor,
   gridOrder,
@@ -37,7 +38,7 @@ export default function HomeStory({
               {children}
             </p>
             <ButtonSecondary
-              className={`text-${headingColor} text-custom-12 tracking-wider btn-sec font-bold`}
+              className={`text-${headingColor} text-custom-12 tracking-wider btn-sec font-bold ${buttonHidden}`}
               theme={bodyColor === "offWhite" ? "light" : "dark"}
             >
               {buttonText}
