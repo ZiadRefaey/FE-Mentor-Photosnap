@@ -36,7 +36,10 @@ function App() {
             path="/features"
             element={<Features screenWidth={screenWidth} />}
           />
-          <Route path="/pricing" element={<Pricing />} />
+          <Route
+            path="/pricing"
+            element={<Pricing screenWidth={screenWidth} />}
+          />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -12,6 +12,7 @@ export default function HomeStory({
   titleText,
   buttonText,
   children,
+  coloredBarClassName,
 }) {
   return (
     <>
@@ -24,10 +25,7 @@ export default function HomeStory({
         <div
           className={`py-[72px] px-8 bg-${backgroundColor} relative w-full items-center justify-center md:w-[64.5%] lg:min-w-[42.4%]`}
         >
-          <ColoredBar
-            hidden={hidden}
-            className={"h-[6px] w-[128px] top-0 left-8"}
-          />
+          <ColoredBar hidden={hidden} className={`${coloredBarClassName}`} />
           <div className="max-w-[387px] flex flex-col gap-6 h-full items-start justify-center m-auto">
             <h1
               className={`text-start text-${headingColor} text-custom-32 leading-10 tracking-widest font-bold uppercase md:text-custom-40`}

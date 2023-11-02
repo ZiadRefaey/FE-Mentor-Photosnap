@@ -3,6 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "beta-mobile": "url('/shared/mobile/bg-beta.jpg')",
+        "beta-desktop": "url('/shared/desktop/bg-beta.jpg')",
+        "beta-tablet": "url('/shared/tablet/bg-beta.jpg')",
+      },
       colors: {
         peachBlush: "#FFC593",
         mauveRose: "#BC7198",

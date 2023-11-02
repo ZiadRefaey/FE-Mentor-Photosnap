@@ -5,7 +5,7 @@ export default function ButtonSecondary({ children, className, theme }) {
     <button
       className={`uppercase flex  gap-4 items-start justify-start ${className}`}
     >
-      <p>{children}</p>
+      <p style={{ color: theme === "light" ? "white" : "black" }}>{children}</p>
       <div className="self-center">
         {theme === "light" ? (
           <img src={arrowLight} alt="" />
