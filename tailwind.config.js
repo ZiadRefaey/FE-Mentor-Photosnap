@@ -7,6 +7,8 @@ export default {
         "beta-mobile": "url('/shared/mobile/bg-beta.jpg')",
         "beta-desktop": "url('/shared/desktop/bg-beta.jpg')",
         "beta-tablet": "url('/shared/tablet/bg-beta.jpg')",
+        "story-tablet": "url('/stories/tablet/moon-of-appalacia.jpg')",
+        "story-desktop": "url('/stories/desktop/moon-of-appalacia.jpg')",
       },
       colors: {
         peachBlush: "#FFC593",

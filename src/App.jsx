@@ -31,7 +31,10 @@ function App() {
         {screenWidth < 768 ? <MobileNav /> : <DesktopNav />}
         <Routes>
           <Route path="/" element={<Homepage screenWidth={screenWidth} />} />
-          <Route path="/stories" element={<Stories />} />
+          <Route
+            path="/stories"
+            element={<Stories screenWidth={screenWidth} />}
+          />
           <Route
             path="/features"
             element={<Features screenWidth={screenWidth} />}
