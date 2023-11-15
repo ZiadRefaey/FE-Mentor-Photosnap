@@ -14,8 +14,10 @@ export default {
         peachBlush: "#FFC593",
         mauveRose: "#BC7198",
         sapphireBlue: "#5A77FF",
-        offWhite: "#999999",
+        offWhite: "#979797",
         lightGray: "#DFDFDF",
+        mediumGray: "#b3b3b3",
+        darkGray: "#4C4C4C",
       },
       fontSize: {
         "custom-12": "0.75rem",

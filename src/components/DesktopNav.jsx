@@ -13,7 +13,7 @@ export default function DesktopNav() {
         <div className="flex items-center justify-between w-[269px]">
           <li>
             <Link
-              className="uppercase text-custom-12 font-bold tracking-wide"
+              className="uppercase text-custom-12 font-bold tracking-wide hover:text-mediumGray transition-colors duration-100"
               to="/stories"
             >
               stories
@@ -21,7 +21,7 @@ export default function DesktopNav() {
           </li>
           <li>
             <Link
-              className="uppercase text-custom-12 font-bold tracking-wide"
+              className="uppercase text-custom-12 font-bold tracking-wide hover:text-mediumGray transition-colors duration-100"
               to="/features"
             >
               features
@@ -29,7 +29,7 @@ export default function DesktopNav() {
           </li>
           <li>
             <Link
-              className="uppercase text-custom-12 font-bold tracking-wide"
+              className="uppercase text-custom-12 font-bold tracking-wide hover:text-mediumGray transition-colors duration-100"
               to="/pricing"
             >
               pricing

@@ -16,11 +16,31 @@ export default function Footer() {
           alt="Company's Logo"
         />
         <SocialsContainer />
-        <div className="flex flex-col items-center justify-center gap-5 uppercase text-white font-bold text-custom-12 md:flex-row md:gap-[26px] md:justify-start xl:fkex-col xl:gap-5 md:order-2 md:mb-[72px] xl:mb-0 xl:row-span-2 xl:flex-col xl:items-start">
-          <Link to="/">Home</Link>
-          <Link to="/stories">stories</Link>
-          <Link to="/features">features</Link>
-          <Link to="/pricing">pricing</Link>
+        <div className="flex flex-col items-center justify-center gap-5 uppercase text-white font-bold text-custom-12 md:flex-row md:gap-[26px] md:justify-start xl:fkex-col xl:gap-5 md:order-2 md:mb-[72px] xl:mb-0 xl:row-span-2 xl:flex-col xl:items-start ">
+          <Link
+            className="hover:text-darkGray transition-colors duraaction-300"
+            to="/"
+          >
+            Home
+          </Link>
+          <Link
+            className="hover:text-darkGray transition-colors duration-100"
+            to="/stories"
+          >
+            stories
+          </Link>
+          <Link
+            className="hover:text-darkGray transition-colors duration-100"
+            to="/features"
+          >
+            features
+          </Link>
+          <Link
+            className="hover:text-darkGray transition-colors duration-100"
+            to="/pricing"
+          >
+            pricing
+          </Link>
         </div>
       </div>
       <div className="flex flex-col gap-[34px] w-full items-center justify-center md:gap-[120px] md:justify-between md:items-end xl:gap-[86px]">

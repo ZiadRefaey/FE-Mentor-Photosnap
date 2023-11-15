@@ -3,9 +3,14 @@ import arrowDark from "/shared/desktop/arrow-dark.svg";
 export default function ButtonSecondary({ children, className, theme }) {
   return (
     <button
-      className={`uppercase flex  gap-4 items-start justify-start ${className}`}
+      className={`uppercase flex  gap-4 items-start justify-start btn-sec ${className} `}
     >
-      <p style={{ color: theme === "light" ? "white" : "black" }}>{children}</p>
+      <p
+        className="btn-sec-text"
+        style={{ color: theme === "light" ? "white" : "black" }}
+      >
+        {children}
+      </p>
       <div className="self-center">
         {theme === "light" ? (
           <img src={arrowLight} alt="" />

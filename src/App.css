@@ -19,6 +19,15 @@
   display: grid;
   grid-template-columns: 1fr;
 }
+.btn-sec:hover .btn-sec-text {
+  text-decoration: underline;
+}
+.story-card:hover .story-colored-bar {
+  display: block;
+  z-index: 100;
+  bottom: 0;
+  transition: all 0.2s;
+}
 @media screen and (min-width: 767px) {
   .home-stories-grid {
     grid-template-columns: 1.81fr 1fr;

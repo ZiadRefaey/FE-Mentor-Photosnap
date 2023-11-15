@@ -1,8 +1,17 @@
 import ButtonSecondary from "./ButtonSecondary";
-
+import ColoredBar from "./ColoredBar";
+import { Link } from "react-router-dom";
 export default function HomeStoryCard({ img, title, tagline, date }) {
   return (
-    <div className="w-full h-auto min-h-[375px] md:min-h-[500px] object-contain relative">
+    <Link
+      to="/"
+      className="w-full h-auto min-h-[375px] md:min-h-[500px] object-contain relative story-card"
+    >
+      <ColoredBar
+        className={
+          "bottom-[-6px] left-0 w-full h-[6px] -z-50 hidden story-colored-bar"
+        }
+      />
       <img src={img} alt={`${title} Image`} className="w-full h-full " />
       <div className="absolute bottom-10 left-[50%] translate-x-[-50%] m-auto w-[82.6%] text-white z-10">
         <p className="text-custom-13 mb-1">{date}</p>
@@ -16,6 +25,6 @@ export default function HomeStoryCard({ img, title, tagline, date }) {
         </ButtonSecondary>
       </div>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40 "></div>
-    </div>
+    </Link>
   );
 }
